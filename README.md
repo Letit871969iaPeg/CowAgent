@@ -41,6 +41,7 @@
 - 本人主要在 macOS + Python 3.11 环境下测试运行
 - 默认使用 DeepSeek 模型，成本较低且效果不错
 - 部署时建议将 `max_iterations`（Agent 最大迭代次数）适当调低（如设为 10），避免单次任务消耗过多 Token
+- 建议在 `config.json` 中将 `single_chat_reply_prefix` 设为空字符串 `""`，避免回复前缀干扰输出格式
 
 ## 声明
 
@@ -66,6 +67,4 @@
 
 # 企业服务
 
-<a href="https://link-ai.tech" target="_blank"><img width="650" src="https://cdn.link-ai.tech/image/link-ai-intro.jpg"></a>
-
-> [LinkAI](https://link-ai.tech/) 是面向企业和个人的一站式 AI 智能体平台，聚合多模态大模型、知识库、技能、工作流等能力，支持一键接入主流平台并管理，支持 SaaS、私有化部署等多种模式，可免部署在线运行[CowA
+<a href="https://link-ai.tech" target="_blank"><img width="650" src="https://cdn.link-ai.tech/image/lin
