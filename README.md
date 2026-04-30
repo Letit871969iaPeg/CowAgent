@@ -42,6 +42,7 @@
 - 默认使用 DeepSeek 模型，成本较低且效果不错
 - 部署时建议将 `max_iterations`（Agent 最大迭代次数）适当调低（如设为 10），避免单次任务消耗过多 Token
 - 建议在 `config.json` 中将 `single_chat_reply_prefix` 设为空字符串 `""`，避免回复前缀干扰输出格式
+- 首次运行前记得执行 `pip install -r requirements.txt`，部分依赖（如 `playwright`）需要额外执行 `playwright install` 安装浏览器驱动
 
 ## 声明
 
@@ -67,4 +68,4 @@
 
 # 企业服务
 
-<a href="https://link-ai.tech" target="_blank"><img width="650" src="https://cdn.link-ai.tech/image/lin
+<a href="https://link-ai.tec
